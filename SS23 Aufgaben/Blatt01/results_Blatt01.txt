@@ -1,0 +1,41 @@
+dat-sose23,  06.05.2023, 13:31:45, b9ecae08b0791ca277e0103cafe856660ef78e44
+Korrektur Blatt 1
+
+Aufgabe 3
+	Test equals(): 5/5
+	Test getter methods: 5/5
+	Test constructor of pair with `Double[]` objects as elements: 5/5
+	Test constructor of pair with Integer elements: 5/5
+	Test setter methods: 5/5
+	Test `swap()`: 5/5
+Total points for Aufgabe 3: 30/30
+
+Aufgabe 4.1
+	Test `area()` method of ConvexPolygon: 5/5
+	Test constructor of ConvexPolygon: 5/5
+	Test `perimeter()` method of ConvexPolygon: 5/5
+	Test static method `somePolygons()` of ConvexPolygon: 5/5
+	Test static method `totalArea()` of ConvexPolygon: 5/5
+Total points for Aufgabe 4.1: 25/25
+
+Aufgabe 4.2
+	Test `area()` method of Triangle: 10/10
+	Test constructor of Triangle: 5/5
+	Test copy constructor of Triangle: 5/5
+Total points for Aufgabe 4.2: 20/20
+
+Aufgabe 4.3
+	Test area calculation of Tetragon: 1/1
+	Test constructor of Tetragon: 2/2
+	Test perimeter calculation of Tetragon: 1/1
+	Test toString method of Tetragon: 0/1
+	  java.lang.AssertionError: Die Rückgabe von toString() auf Tetragon ist nicht wie erwartet. expected [ConvexPolygon([(0.0, -22.1), (1.5, -10.0), (8.7, 9.2), (4.5, -24.3)])] but found [Tetragon{[(0.0, -22.1), (1.5, -10.0), (8.7, 9.2), (4.5, -24.3)]}]
+Total points for Aufgabe 4.3: 4/5
+
+Aufgabe 4.4
+	Test basic constructor of RegularPolygon: 5/5
+	Test copy constructor of RegularPolygon: 5/5
+	Test `resize()` method of RegularPolygon: 10/10
+Total points for Aufgabe 4.4: 20/20
+
+Total points: 99/100

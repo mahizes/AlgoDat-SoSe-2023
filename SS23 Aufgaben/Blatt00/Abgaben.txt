@@ -1,0 +1,19 @@
+Regeln für AlgoDat Abgaben
+Ein Paar Regeln für Java Lösungen:
+Es darf nicht plagiiert werden. Das heißt, Sie dürfen keine Lösungen anderer für die
+Bearbeitung der Aufgaben nutzen. Das gilt sowohl für Lösungen aus diesem Semester
+als auch für Lösungen aus den vorherigen Semestern oder Lösungen, die Sie im Internet
+gefunden haben. Ein nachgewiesenes Plagiat führt zum Nichtbestehen des Moduls und
+der Meldung eines Täuschungsversuches an das Prüfungsamt.
+Es dürfen Variablen und Methoden zu vorgegebenen Klassen hinzugefügt werden.
+Vorhandene Variablen dürfen nicht geändert werden, auch nicht im Typ oder Zugriffsrecht.
+Vorhandene Methoden ohne TODO Kommentar dürfen in keiner Weise geändert werden.
+Bei vorhandenen Methoden mit TODO Kommentar darf Signatur und Zugriffsrecht nicht
+geändert werden. Es dürfen allerdings zusätzliche Variablen eingeführt werden.
+Es dürfen im Code keine Packages verwendet werden. Diese kompilieren auf dem Server
+nicht. Das gleiche gilt für imports, die nicht aus der Standard Java Library kommen.
+Die vorgegebene Ordnerstruktur in der Abgabe darf nicht geändert werden.
+Sie können für schlechte Formatierung des Codes Punktabzug bekommen (da dies die
+Lesbarkeit und damit die Korrektur erschwert). Um das zu umgehen, können Sie z.B. am
+Ende Ihren Code mit Ctrl+Alt+L (bzw. Code | Reformat Code) formatieren.
+Nichtbeachten der Regeln kann zu Punktabzug führen.

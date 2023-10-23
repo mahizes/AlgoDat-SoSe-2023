@@ -1,0 +1,65 @@
+dat-sose23,  30.05.2023, 00:58:13, 9797dae7c39a889d089e1806c1bdb790ddc2d20a
+Korrektur Blatt 4
+
+Aufgabe 3.1
+	Setzt Board Constructor board.n für n = 1, ..., 10 korrekt?: 2/2
+	Liefert nach doMove() und undoMove() die Methode getField() das Erwartete?: 8/8
+	Liefert getField() für alle Positionen den von setField() gesetzten Wert?: 5/5
+	Lösen ungültige Positionen bei getField() eine Exception aus?: 2/2
+	Gibt isGameWon() in unterschiedlichen Spielsituationen das erwartete Ergebnis?: 8/8
+	Gibt Methode nFreeFields() für unterschiedliche Brettgrößen die richtige Antwort?: 4/4
+	Lösen ungültige Token-Werte bei setField() eine Exception aus?: 1/1
+	Lösen ungültige Positionen bei setField() eine Exception aus?: 2/2
+	Liefert validMoves() in unterschiedlichen Spielsituationen das erwartete Ergebnis?: 8/8
+Total points for Aufgabe 3.1: 40/40
+
+Aufgabe 3.2
+	Liefert alphaBeta() in komplexen Stellungen die erwartete Bewertung?: 20/20
+	Liefert alphaBeta() in direkten Verluststellungen die erwartete Bewertung?: 10/10
+	Liefert alphaBeta() in regellosen Anfangsstellungen die erwartete Bewertung?: 3/3
+	Liefert alphaBeta() in komplexen Stellungen die erwartete Bewertung?: 7/7
+	Liefert alphaBeta() in direkten Gewinnstellungen die erwartete Bewertung?: 10/10
+Total points for Aufgabe 3.2: 50/50
+
+Aufgabe 3.3
+	Gibt evaluatePossibleMoves() in unterschiedlichen Spielsituationen das erwartete Ausgabe?: 0/3
+	  java.lang.AssertionError: Auf die Eingabe
+.o.
+...
+..x
+wird folgende Ausgabe erwartet:
+
+Evaluation for player 'x':
+  0  o  3
+  0  3 -2
+  3  0  x
+
+aber es kam:
+
+Evaluation for player 'x':
+ 0  0  3 
+ 0  3 -2 
+ 3  0  0 
+
+	Gibt evaluatePossibleMoves() in unterschiedlichen Spielsituationen das erwartete Ausgabe?: 0/7
+	  java.lang.AssertionError: Auf die Eingabe
+.o.
+...
+..x
+wird folgende Ausgabe erwartet:
+
+Evaluation for player 'x':
+  0  o  3
+  0  3 -2
+  3  0  x
+
+aber es kam:
+
+Evaluation for player 'x':
+ 0  0  3 
+ 0  3 -2 
+ 3  0  0 
+
+Total points for Aufgabe 3.3: 0/10
+
+Total points: 90/100

@@ -1,0 +1,35 @@
+dat-sose23,  14.06.2023, 17:50:24, 8e72ac732ee75f7b221f7484c808614edeff896f
+Korrektur Blatt 6
+
+Aufgabe 3.1
+	Wird distTo richtig zugwiesen?: 4/4
+	Wird edgeTo richtig zugwiesen?: 4/4
+	Wird postorder richtig zugwiesen?: 5/5
+	Wird preorder richtig zugwiesen?: 5/5
+Total points for Aufgabe 3.1: 18/18
+
+Aufgabe 3.2
+	Gibt die Methode pathTo, den richtigen Weg zurück?: 0/12
+	  java.lang.AssertionError: The recursive solution does not work. did not expect to find [true] but found [false]
+Total points for Aufgabe 3.2: 0/12
+
+Aufgabe 3.3
+	Checkt die Implementierung von mazegrid: 15/15
+Total points for Aufgabe 3.3: 15/15
+
+Aufgabe 3.4
+	Checkt die Implementierung von randomNonrecursivedfs: 10/10
+	Checkt die Implementierung von randomdfs: 5/5
+Total points for Aufgabe 3.4: 15/15
+
+Aufgabe 3.5
+	Checkt die Implementierung von addEdge: 4/4
+	Checkt die Implementierung von hasEdge: 6/6
+Total points for Aufgabe 3.5: 10/10
+
+Aufgabe 3.6
+	Checkt die Implementierung von buildMaze: 20/20
+	Checkt die Implementierung von findWay: 10/10
+Total points for Aufgabe 3.6: 30/30
+
+Total points: 88/100

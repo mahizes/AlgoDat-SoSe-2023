@@ -1,0 +1,39 @@
+dat-sose23,  30.06.2023, 12:46:10, ed18cc7a3429d6bc5d009b82ee6ca83399ed5596
+Korrektur Blatt 10
+
+Aufgabe 3.1
+	Test output of manhattan() on complex boards: 5/5
+	Test output of manhattan() on medium complex boards: 5/5
+	Test output of manhattan() on simple boards: 5/5
+Total points for Aufgabe 3.1: 15/15
+
+Aufgabe 3.2
+	Test output of compareTo() on PartialSolutions after performing moves: 4/4
+	Test the copy constructor (requires doMove() and isSolution() to work): 4/4
+	Test doMove() (requires isSolution() to work): 4/4
+	Test output of isSolution(): 4/4
+	Test output of moveSequence(): 1/1
+	Test output of validMoves(): 4/4
+	Test output of compareTo() on fresh PartialSolutions (without performing moves): 0/4
+	  java.lang.AssertionError: Method 'compareTo()' does not return the expected result.
+We called compareTo() for the following fresh PartialSolutions (i.e. without performing moves) for board (object)
+ 0  2  3 
+ 4  5  1 
+ 7  8  6 
+and board (argument) 8  2  7 
+ 1  6  5 
+ 0  3  4 
+The result should be -1 (heuristik for the first board is smaller), while your method returned 0.
+Total points for Aufgabe 3.2: 21/25
+
+Aufgabe 3.3
+	Test solveByAStar() with moderate 3x3 boards: 10/10
+	Test solveByAStar() with simple 3x3 boards: 10/10
+	Test solveByAStar() with moderate 4x4 boards: 10/10
+	Test solveByAStar() with simple 4x4 boards: 10/10
+	Test solveByAStar() with moderate 5x5 boards: 10/10
+	Test solveByAStar() with hard 6x6 boards: 5/5
+	Test solveByAStar() with simple non-quadratic boards: 5/5
+Total points for Aufgabe 3.3: 60/60
+
+Total points: 96/100

@@ -1,0 +1,191 @@
+Manhattan metric: 21 -> cost = 21
+ 6  4  7 
+ 8  5  0 
+ 3  2  1 
+
+1. Move: (1,1)->(2,1)
+Manhattan metric: 22 -> cost = 23
+ 6  4  7 
+ 8  0  5 
+ 3  2  1 
+
+2. Move: (1,0)->(1,1)
+Manhattan metric: 21 -> cost = 23
+ 6  0  7 
+ 8  4  5 
+ 3  2  1 
+
+3. Move: (2,0)->(1,0)
+Manhattan metric: 20 -> cost = 23
+ 6  7  0 
+ 8  4  5 
+ 3  2  1 
+
+4. Move: (2,1)->(2,0)
+Manhattan metric: 21 -> cost = 25
+ 6  7  5 
+ 8  4  0 
+ 3  2  1 
+
+5. Move: (2,2)->(2,1)
+Manhattan metric: 20 -> cost = 25
+ 6  7  5 
+ 8  4  1 
+ 3  2  0 
+
+6. Move: (1,2)->(2,2)
+Manhattan metric: 21 -> cost = 27
+ 6  7  5 
+ 8  4  1 
+ 3  0  2 
+
+7. Move: (0,2)->(1,2)
+Manhattan metric: 20 -> cost = 27
+ 6  7  5 
+ 8  4  1 
+ 0  3  2 
+
+8. Move: (0,1)->(0,2)
+Manhattan metric: 19 -> cost = 27
+ 6  7  5 
+ 0  4  1 
+ 8  3  2 
+
+9. Move: (1,1)->(0,1)
+Manhattan metric: 18 -> cost = 27
+ 6  7  5 
+ 4  0  1 
+ 8  3  2 
+
+10. Move: (1,0)->(1,1)
+Manhattan metric: 17 -> cost = 27
+ 6  0  5 
+ 4  7  1 
+ 8  3  2 
+
+11. Move: (0,0)->(1,0)
+Manhattan metric: 16 -> cost = 27
+ 0  6  5 
+ 4  7  1 
+ 8  3  2 
+
+12. Move: (0,1)->(0,0)
+Manhattan metric: 17 -> cost = 29
+ 4  6  5 
+ 0  7  1 
+ 8  3  2 
+
+13. Move: (1,1)->(0,1)
+Manhattan metric: 16 -> cost = 29
+ 4  6  5 
+ 7  0  1 
+ 8  3  2 
+
+14. Move: (1,0)->(1,1)
+Manhattan metric: 15 -> cost = 29
+ 4  0  5 
+ 7  6  1 
+ 8  3  2 
+
+15. Move: (2,0)->(1,0)
+Manhattan metric: 14 -> cost = 29
+ 4  5  0 
+ 7  6  1 
+ 8  3  2 
+
+16. Move: (2,1)->(2,0)
+Manhattan metric: 13 -> cost = 29
+ 4  5  1 
+ 7  6  0 
+ 8  3  2 
+
+17. Move: (2,2)->(2,1)
+Manhattan metric: 12 -> cost = 29
+ 4  5  1 
+ 7  6  2 
+ 8  3  0 
+
+18. Move: (1,2)->(2,2)
+Manhattan metric: 11 -> cost = 29
+ 4  5  1 
+ 7  6  2 
+ 8  0  3 
+
+19. Move: (1,1)->(1,2)
+Manhattan metric: 12 -> cost = 31
+ 4  5  1 
+ 7  0  2 
+ 8  6  3 
+
+20. Move: (1,0)->(1,1)
+Manhattan metric: 11 -> cost = 31
+ 4  0  1 
+ 7  5  2 
+ 8  6  3 
+
+21. Move: (2,0)->(1,0)
+Manhattan metric: 10 -> cost = 31
+ 4  1  0 
+ 7  5  2 
+ 8  6  3 
+
+22. Move: (2,1)->(2,0)
+Manhattan metric: 9 -> cost = 31
+ 4  1  2 
+ 7  5  0 
+ 8  6  3 
+
+23. Move: (2,2)->(2,1)
+Manhattan metric: 8 -> cost = 31
+ 4  1  2 
+ 7  5  3 
+ 8  6  0 
+
+24. Move: (1,2)->(2,2)
+Manhattan metric: 7 -> cost = 31
+ 4  1  2 
+ 7  5  3 
+ 8  0  6 
+
+25. Move: (0,2)->(1,2)
+Manhattan metric: 6 -> cost = 31
+ 4  1  2 
+ 7  5  3 
+ 0  8  6 
+
+26. Move: (0,1)->(0,2)
+Manhattan metric: 5 -> cost = 31
+ 4  1  2 
+ 0  5  3 
+ 7  8  6 
+
+27. Move: (0,0)->(0,1)
+Manhattan metric: 4 -> cost = 31
+ 0  1  2 
+ 4  5  3 
+ 7  8  6 
+
+28. Move: (1,0)->(0,0)
+Manhattan metric: 3 -> cost = 31
+ 1  0  2 
+ 4  5  3 
+ 7  8  6 
+
+29. Move: (2,0)->(1,0)
+Manhattan metric: 2 -> cost = 31
+ 1  2  0 
+ 4  5  3 
+ 7  8  6 
+
+30. Move: (2,1)->(2,0)
+Manhattan metric: 1 -> cost = 31
+ 1  2  3 
+ 4  5  0 
+ 7  8  6 
+
+31. Move: (2,2)->(2,1)
+Solved board:
+ 1  2  3 
+ 4  5  6 
+ 7  8  0
+ 

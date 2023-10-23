@@ -1,0 +1,52 @@
+dat-sose23,  01.06.2023, 14:38:41, f9b4c226a975f412359b4dd16267d2b8167b7cee
+Korrektur Blatt 5
+
+Aufgabe 2.1
+	Liefert maxGainRecursive() die richtige Lösung für die Beispielspiele?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+	Liefert maxGainRecursive() die richtige Lösung für kurze Zufallsspiele?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+Total points for Aufgabe 2.1: 0/0
+
+Aufgabe 2.2
+	Liefert maxGain() die richtige Lösung für lange Zufallsspiele?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+	Hat maxGain() (maximal) quadratischen Speicherbedarf?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+	Liefert maxGain() die richtige Lösung für die Beispielspiele?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+	Liefert maxGain() die richtige Lösung für kurze Zufallsspiele?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+Total points for Aufgabe 2.2: 0/0
+
+Aufgabe 2.3
+	Liefert optimalSequence() eine richtige Lösung für zufällige Spiele?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+	Liefert optimalSequence() eine richtige Lösung für die Beispielspiele?: 0/0
+	  java.lang.Error: Unresolved compilation problem: 
+	This method must return a result of type int
+
+Total points for Aufgabe 2.3: 0/0
+
+Aufgabe 3.1
+	Benutzt optBottomUp() einen Zähler vom Typ long?: 10/10
+	Liefert optBottomUp() die richtige Lösung für die großen Beispiele?: 25/25
+	Liefert optBottomUp() die richtige Lösung für die mittleren Beispiele?: 30/30
+	Liefert optBottomUp() die richtige Lösung für die kleinen Beispiele?: 35/35
+Total points for Aufgabe 3.1: 100/100
+
+Total points: 100/100

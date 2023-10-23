@@ -1,0 +1,22 @@
+dat-sose23,  20.06.2023, 16:50:17, 0ee9fe011bc3fb03b1a302558b75dd0800c9c903
+Korrektur Blatt 7
+
+Aufgabe 3.1
+	Funktionieren die get- und set-Methode für die Koordinaten?: 5/5
+Total points for Aufgabe 3.1: 5/5
+
+Aufgabe 3.3
+	Funktioniert die Berechung der Cluster für vorgegebene Clusteranzahl richtig?: 30/30
+Total points for Aufgabe 3.3: 30/30
+
+Aufgabe 3.4
+	Funktioniert die Berechung des Variationskoeffizienten richtig?: 10/10
+	Funktioniert die Berechung der Cluster für vorgegebenen threshold richtig?: 35/35
+Total points for Aufgabe 3.4: 45/45
+
+Aufgabe 3.5
+	Funktioniert die Validierung für den IRIS Datensatz?: 0/20
+	  java.lang.AssertionError: Ihre Validierung für den IRIS Datensatz gibt nicht das richtige Ergebnis. did not expect to find [true] but found [false]
+Total points for Aufgabe 3.5: 0/20
+
+Total points: 80/100

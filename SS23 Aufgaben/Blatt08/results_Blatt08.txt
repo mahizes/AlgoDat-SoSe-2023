@@ -1,0 +1,37 @@
+dat-sose23,  25.06.2023, 14:41:18, 4b7ef5fc38e4f1c819eb655ab401e9aaed87385d
+Korrektur Blatt 8
+
+Aufgabe 3.2
+	Does the method contrast() of MatrixImage work correctly?: 5/5
+	Does the method removeVPath() of MatrixImage work correctly?: 15/15
+Total points for Aufgabe 3.2: 20/20
+
+Aufgabe 3.3
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for large DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for large DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return a valid path for large DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return a valid path for large DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for medium-sized DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for medium-sized DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return a valid path for medium-sized DAGs?: 4/4
+	Does the method pathTo() of ShortestPathsTopological return a valid path for medium-sized DAGs?: 6/6
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for small DAGs?: 2/2
+	Does the method pathTo() of ShortestPathsTopological return an optimal path for small DAGs?: 3/3
+	Does the method pathTo() of ShortestPathsTopological return a valid path for small DAGs?: 2/2
+	Does the method pathTo() of ShortestPathsTopological return a valid path for small DAGs?: 3/3
+Total points for Aufgabe 3.3: 50/50
+
+Aufgabe 3.4
+	Does the method leastContrastImageVPath() of ContentAwareImageResizing return a valid path?: 10/10
+	Does the method leastContrastImageVPath() of ContentAwareImageResizing return an optimal path?: 0/20
+	  java.lang.AssertionError: Method leastContrastImageVPath returns a suboptimal path.
+We tested leastContrastImageVpath for the following matrix:
+4 4 4 1 1 4 4 4 
+8 8 1 8 8 1 8 8 
+4 1 4 4 4 4 1 4 
+8 8 1 8 8 1 8 8 
+4 4 4 1 1 4 4 4 
+and expected a path resulting in a overall contrast of 0.0 but your method returned path [0, 3, 2, 1, 2] with has contrast 16.0.
+Total points for Aufgabe 3.4: 10/30
+
+Total points: 80/100
